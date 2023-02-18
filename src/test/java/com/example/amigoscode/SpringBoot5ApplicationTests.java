@@ -1,4 +1,4 @@
-package com.example.springboot5;
+package com.example.amigoscode;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
