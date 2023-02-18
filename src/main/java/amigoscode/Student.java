@@ -1,3 +1,4 @@
+package amigoscode;
 import jakarta.persistence.*;
 
 @Entity(name = "Student")

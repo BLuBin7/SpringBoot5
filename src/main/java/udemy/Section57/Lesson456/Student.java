@@ -1,4 +1,4 @@
-package com.learn.udemy.Section57.Lesson456;
+package udemy.Section57.Lesson456;
 
 /**
  * Created by Binh
