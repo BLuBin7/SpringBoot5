@@ -1,6 +1,8 @@
 {
-  "Id" : 16,
+  "id" : 16,
   "firstName" : "Blu",
-  "lastName " : "Bin",
-  "active "   : true
+  "lastName" : "Bin",
+  "active"   : true
 }
+
+

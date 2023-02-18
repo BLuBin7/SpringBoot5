@@ -11,15 +11,17 @@ import java.io.IOException;
  * Description :
  */
 public class Main {
+//  lưu ý : file json không được để thừa dấu cách, ko match được với bên java pojo thì sẽ ko chạy được
     public static void main(String[] args) throws IOException {
     ObjectMapper mapper = new ObjectMapper();
-//
-    Student student = mapper.readValue(new File("src/main/java/udemy/Section57/Lesson456/sample.json"),Student.class );
+//    đợc dữ liệu từ Json sang Java POJO bằng setter
+//    Student student = mapper.readValue(new File("src/main/java/udemy/Section57/Lesson456/sample.json"),Student.class );
+//        System.out.println(student.getFirstName());
 
-//        Student st = new Student(17 ,"BluBin",  "Bin",true);
+//    ghi dữ liệu từ Java POJO sang Json bằng getter
+        Student st = new Student(19 ,"BluBin",  "Bin",true);
+        mapper.writeValue(new File("src/main/data.json"),st);
 
-//        mapper.writeValue(new File("src/main/data.json"),st);
-        System.out.println(student.getFirstName());
     }
 
 

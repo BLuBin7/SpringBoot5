@@ -1,8 +1,8 @@
-package udemy.Section57.Lesson456;
+package udemy.Section57.Lesson459;
 
 /**
  * Created by Binh
- * Date : 2/18/2023 - 6:33 PM
+ * Date : 2/18/2023 - 10:23 PM
  * Description :
  */
 public class Student {
@@ -10,20 +10,15 @@ public class Student {
     private String firstName;
     private String lastName;
     private boolean active;
-
-    public Student(int id, String firstName, String lastName, boolean active) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.active = active;
-    }
+    private Address address;
+    private String[] languagues;
 
     public int getId() {
         return id;
     }
 
     public void setId(int id) {
-        id = id;
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -48,5 +43,20 @@ public class Student {
 
     public void setActive(boolean active) {
         this.active = active;
+    }
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    public String[] getLanguagues() {
+        return languagues;
+    }
+
+    public void setLanguagues(String[] languagues) {
+        this.languagues = languagues;
     }
 }

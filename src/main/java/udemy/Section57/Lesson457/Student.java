@@ -1,4 +1,4 @@
-package udemy.Section57.Lesson456;
+package udemy.Section57.Lesson457;
 
 /**
  * Created by Binh
@@ -6,24 +6,25 @@ package udemy.Section57.Lesson456;
  * Description :
  */
 public class Student {
-    private int id;
+    private int clazz ;
     private String firstName;
     private String lastName;
     private boolean active;
 
-    public Student(int id, String firstName, String lastName, boolean active) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.active = active;
+//    public Student(int id, String firstName, String lastName, boolean active) {
+//        this.id = id;
+//        this.firstName = firstName;
+//        this.lastName = lastName;
+//        this.active = active;
+//    }
+
+
+    public int getClazz() {
+        return clazz;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        id = id;
+    public void setClazz(int clazz) {
+        this.clazz = clazz;
     }
 
     public String getFirstName() {
