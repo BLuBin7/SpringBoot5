@@ -1,6 +1,7 @@
+package com.example.springboot5;
+
 import jakarta.persistence.*;
 
-@Entity(name = "Student")
 public class Student {
     @Id
 //    Tạo trình tự cho table
