@@ -1,7 +1,6 @@
-package com.example.amigoscode;
-
 import jakarta.persistence.*;
 
+@Entity(name = "Student")
 public class Student {
     @Id
 //    Tạo trình tự cho table
