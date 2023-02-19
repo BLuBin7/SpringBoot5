@@ -1,10 +1,14 @@
 package udemy.Section57.Lesson459;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 /**
  * Created by Binh
  * Date : 2/18/2023 - 10:23 PM
  * Description :
  */
+//dùng để bỏ qua các thuộc tính không được khai báo, chương trình vẫn chạy (ví dụ company)
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
     private int id;
     private String firstName;
